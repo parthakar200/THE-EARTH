@@ -145,13 +145,13 @@ body{
 .row1{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    
 }
 
 .row2{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    
 }
 
 p{
