@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 /* Navigation */
 .navbar {
     background: linear-gradient(to right, #43cea2, #185a9d);
