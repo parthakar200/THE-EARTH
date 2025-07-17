@@ -5,19 +5,15 @@ body{
 
 /* Navigation */
 .navbar {
-    background: linear-gradient(135deg, #2c5530, #3e7b3e);
+    background: linear-gradient(to right, #43cea2, #185a9d);
     padding: 1rem 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+     position: fixed;
+    width: 100vw;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 .nav-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 20px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,6 +29,8 @@ body{
     display: flex;
     list-style: none;
     gap: 2rem;
+    margin-right: 4rem;
+
 }
 
 .nav-link {
@@ -44,8 +42,7 @@ body{
     border-radius: 5px;
 }
 
-.nav-link:hover,
-.nav-link.active {
+.nav-link:hover {
     background-color: rgba(255,255,255,0.1);
     color: #a8e6a3;
 }
